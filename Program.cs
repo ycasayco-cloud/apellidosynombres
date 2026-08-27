@@ -4,7 +4,7 @@ var app = builder.Build();
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowFrontEnd", policity =>
+    options.AddPolicy("AllowFrontend", policity =>
     {
         policity
             .AllowAnyOrigin()
