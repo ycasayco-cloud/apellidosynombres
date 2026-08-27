@@ -2,20 +2,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 var app = builder.Build();
 
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowFrontend", policity =>
-    {
-        policity
-            .AllowAnyOrigin()
-            .AllowAnyHeader()
-            .AllowAnyMethod();
-    });
-    }
-);
-
-app.UseCors("AllowFrontend");
-
 app.MapGet("/", () =>
 {
     return "API Sistema de Gestión funcionando";
@@ -61,5 +47,6 @@ app.MapGet("/api/cocteles", () =>
     });
 });
 
+var.port = Enviroment.GetEnviromentVariable("Port") ?? "10000";
 
-app.Run();
+app.Run($"https://0.0.0.0:{port}");
