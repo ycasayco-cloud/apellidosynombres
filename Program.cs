@@ -14,7 +14,7 @@ builder.Services.AddCors(options =>
     }
 );
 
-app.UseCors("AllowFrontEnd");
+app.UseCors("AllowFrontend");
 
 app.MapGet("/", () =>
 {
