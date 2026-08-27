@@ -13,6 +13,8 @@ builder.Services.AddCors(options =>
     )
 );
 
+app.UseCors("AllowFrontEnd");
+
 app.MapGet("/", () =>
 {
     return "API Sistema de Gestión funcionando";
