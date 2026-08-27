@@ -49,4 +49,4 @@ app.MapGet("/api/cocteles", () =>
 
 var port = Environment.GetEnvironmentVariable("Port") ?? "10000";
 
-app.Run($"https://0.0.0.0:{port}");
+app.Run($"http://0.0.0.0:{port}");
