@@ -1,6 +1,20 @@
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy( policity =>
+    {
+        policity
+            .AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+    }
+);
+
 var app = builder.Build();
+
+app.UseCors();
 
 app.MapGet("/", () =>
 {
@@ -46,6 +60,7 @@ app.MapGet("/api/cocteles", () =>
         }
     });
 });
+
 
 var port = Environment.GetEnvironmentVariable("Port") ?? "10000";
 
