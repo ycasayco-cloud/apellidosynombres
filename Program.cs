@@ -39,6 +39,7 @@ app.MapGet("/api/ropa", () =>
             material = "Algodón",
             temporada = "Todo el año",
             descuento = 0,
+            imagen = "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80",
             descripcion = "Polo básico de algodón, ideal para uso diario."
         },
         new
@@ -56,6 +57,7 @@ app.MapGet("/api/ropa", () =>
             material = "Algodón",
             temporada = "Todo el año",
             descuento = 10,
+            imagen = "https://images.unsplash.com/photo-1583743814966-8936f37f3846?auto=format&fit=crop&w=800&q=80",
             descripcion = "Polo blanco de algodón con diseño clásico."
         },
         new
@@ -73,6 +75,7 @@ app.MapGet("/api/ropa", () =>
             material = "Algodón Premium",
             temporada = "Verano",
             descuento = 15,
+            imagen = "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=80",
             descripcion = "Polo oversize de estilo urbano y moderno."
         },
         new
@@ -90,9 +93,9 @@ app.MapGet("/api/ropa", () =>
             material = "Poliéster",
             temporada = "Todo el año",
             descuento = 5,
+            imagen = "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=800&q=80",
             descripcion = "Polo deportivo ligero con tecnología de secado rápido."
         },
-
         new
         {
             id = 5,
@@ -108,6 +111,7 @@ app.MapGet("/api/ropa", () =>
             material = "Algodón",
             temporada = "Primavera",
             descuento = 0,
+            imagen = "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=800&q=80",
             descripcion = "Camisa casual de manga larga para ocasiones informales."
         },
         new
@@ -125,6 +129,7 @@ app.MapGet("/api/ropa", () =>
             material = "Algodón",
             temporada = "Todo el año",
             descuento = 10,
+            imagen = "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=800&q=80",
             descripcion = "Camisa formal blanca ideal para oficina y eventos."
         },
         new
@@ -142,9 +147,9 @@ app.MapGet("/api/ropa", () =>
             material = "Lino",
             temporada = "Verano",
             descuento = 20,
+            imagen = "https://images.unsplash.com/photo-1605763240000-7e93b172d754?auto=format&fit=crop&w=800&q=80",
             descripcion = "Camisa ligera de lino con estilo elegante."
         },
-
         new
         {
             id = 8,
@@ -160,6 +165,7 @@ app.MapGet("/api/ropa", () =>
             material = "Denim",
             temporada = "Todo el año",
             descuento = 0,
+            imagen = "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=800&q=80",
             descripcion = "Jean clásico de corte recto y color azul."
         },
         new
@@ -177,6 +183,7 @@ app.MapGet("/api/ropa", () =>
             material = "Denim Stretch",
             temporada = "Todo el año",
             descuento = 15,
+            imagen = "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80",
             descripcion = "Jean skinny con material stretch para mayor comodidad."
         },
         new
@@ -194,6 +201,7 @@ app.MapGet("/api/ropa", () =>
             material = "Algodón",
             temporada = "Otoño",
             descuento = 10,
+            imagen = "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=800&q=80",
             descripcion = "Pantalón cargo con múltiples bolsillos."
         },
         new
@@ -211,9 +219,9 @@ app.MapGet("/api/ropa", () =>
             material = "Poliéster",
             temporada = "Todo el año",
             descuento = 5,
+            imagen = "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=800&q=80",
             descripcion = "Pantalón de vestir para oficina y eventos formales."
         },
-
         new
         {
             id = 12,
@@ -229,6 +237,7 @@ app.MapGet("/api/ropa", () =>
             material = "Viscosa",
             temporada = "Primavera",
             descuento = 10,
+            imagen = "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80",
             descripcion = "Vestido floral ligero y cómodo."
         },
         new
@@ -246,6 +255,7 @@ app.MapGet("/api/ropa", () =>
             material = "Poliéster",
             temporada = "Todo el año",
             descuento = 15,
+            imagen = "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=800&q=80",
             descripcion = "Vestido negro elegante para ocasiones especiales."
         },
         new
@@ -263,9 +273,9 @@ app.MapGet("/api/ropa", () =>
             material = "Algodón",
             temporada = "Verano",
             descuento = 5,
+            imagen = "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=800&q=80",
             descripcion = "Vestido casual corto para uso diario."
         },
-
         new
         {
             id = 15,
@@ -281,6 +291,7 @@ app.MapGet("/api/ropa", () =>
             material = "Denim",
             temporada = "Otoño",
             descuento = 10,
+            imagen = "https://images.unsplash.com/photo-1578681994506-b8f463449011?auto=format&fit=crop&w=800&q=80",
             descripcion = "Casaca denim clásica para días frescos."
         },
         new
@@ -298,6 +309,7 @@ app.MapGet("/api/ropa", () =>
             material = "Nylon",
             temporada = "Invierno",
             descuento = 20,
+            imagen = "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?auto=format&fit=crop&w=800&q=80",
             descripcion = "Casaca impermeable para actividades al aire libre."
         },
         new
@@ -315,9 +327,9 @@ app.MapGet("/api/ropa", () =>
             material = "Cuero sintético",
             temporada = "Invierno",
             descuento = 10,
+            imagen = "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=800&q=80",
             descripcion = "Casaca de estilo clásico con acabado tipo cuero."
         },
-
         new
         {
             id = 18,
@@ -333,6 +345,7 @@ app.MapGet("/api/ropa", () =>
             material = "Sintético",
             temporada = "Todo el año",
             descuento = 5,
+            imagen = "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80",
             descripcion = "Zapatillas urbanas cómodas para uso diario."
         },
         new
@@ -350,6 +363,7 @@ app.MapGet("/api/ropa", () =>
             material = "Malla",
             temporada = "Todo el año",
             descuento = 15,
+            imagen = "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=800&q=80",
             descripcion = "Zapatillas deportivas ligeras para entrenamiento."
         },
         new
@@ -367,9 +381,9 @@ app.MapGet("/api/ropa", () =>
             material = "Cuero sintético",
             temporada = "Invierno",
             descuento = 20,
+            imagen = "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=800&q=80",
             descripcion = "Botines elegantes para combinar con diferentes estilos."
         },
-
         new
         {
             id = 21,
@@ -385,6 +399,7 @@ app.MapGet("/api/ropa", () =>
             material = "Algodón",
             temporada = "Invierno",
             descuento = 10,
+            imagen = "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=800&q=80",
             descripcion = "Hoodie cómodo con capucha y bolsillo frontal."
         },
         new
@@ -402,9 +417,9 @@ app.MapGet("/api/ropa", () =>
             material = "Algodón",
             temporada = "Invierno",
             descuento = 15,
+            imagen = "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=800&q=80",
             descripcion = "Sudadera oversize de estilo juvenil."
         },
-
         new
         {
             id = 23,
@@ -420,6 +435,7 @@ app.MapGet("/api/ropa", () =>
             material = "Poliéster",
             temporada = "Primavera",
             descuento = 10,
+            imagen = "https://images.unsplash.com/photo-1583496661160-fb5886a13d27?auto=format&fit=crop&w=800&q=80",
             descripcion = "Falda plisada de estilo elegante y juvenil."
         },
         new
@@ -437,9 +453,9 @@ app.MapGet("/api/ropa", () =>
             material = "Denim",
             temporada = "Verano",
             descuento = 5,
+            imagen = "https://images.unsplash.com/photo-1582142306909-195724d33ffc?auto=format&fit=crop&w=800&q=80",
             descripcion = "Falda denim corta para un look casual."
         },
-
         new
         {
             id = 25,
@@ -455,6 +471,7 @@ app.MapGet("/api/ropa", () =>
             material = "Algodón",
             temporada = "Todo el año",
             descuento = 0,
+            imagen = "https://images.unsplash.com/photo-1521369909029-2afed882baee?auto=format&fit=crop&w=800&q=80",
             descripcion = "Gorra urbana ajustable."
         },
         new
@@ -472,6 +489,7 @@ app.MapGet("/api/ropa", () =>
             material = "Lana",
             temporada = "Invierno",
             descuento = 10,
+            imagen = "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?auto=format&fit=crop&w=800&q=80",
             descripcion = "Bufanda abrigadora para temporada de frío."
         },
         new
@@ -489,6 +507,7 @@ app.MapGet("/api/ropa", () =>
             material = "Cuero sintético",
             temporada = "Todo el año",
             descuento = 5,
+            imagen = "https://images.unsplash.com/photo-1624222247344-550fb60583dc?auto=format&fit=crop&w=800&q=80",
             descripcion = "Cinturón clásico para vestir o uso casual."
         },
         new
@@ -506,9 +525,9 @@ app.MapGet("/api/ropa", () =>
             material = "Cuero sintético",
             temporada = "Todo el año",
             descuento = 15,
+            imagen = "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80",
             descripcion = "Cartera casual con varios compartimentos."
         },
-
         new
         {
             id = 29,
@@ -524,6 +543,7 @@ app.MapGet("/api/ropa", () =>
             material = "Poliéster",
             temporada = "Verano",
             descuento = 10,
+            imagen = "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=800&q=80",
             descripcion = "Short deportivo ligero para entrenamiento."
         },
         new
@@ -541,6 +561,7 @@ app.MapGet("/api/ropa", () =>
             material = "Poliéster Stretch",
             temporada = "Todo el año",
             descuento = 15,
+            imagen = "https://images.unsplash.com/photo-1506629905607-d9e0a5d0a8a5?auto=format&fit=crop&w=800&q=80",
             descripcion = "Leggings deportivos de alta elasticidad."
         },
         new
@@ -558,6 +579,7 @@ app.MapGet("/api/ropa", () =>
             material = "Dry Fit",
             temporada = "Todo el año",
             descuento = 5,
+            imagen = "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
             descripcion = "Polo deportivo transpirable para entrenamiento."
         },
         new
@@ -575,11 +597,11 @@ app.MapGet("/api/ropa", () =>
             material = "Algodón",
             temporada = "Invierno",
             descuento = 20,
+            imagen = "https://images.unsplash.com/photo-1556906781-9a412961c28c?auto=format&fit=crop&w=800&q=80",
             descripcion = "Buzo deportivo completo para entrenamiento y uso casual."
         }
     });
 });
-
 
 var port = Environment.GetEnvironmentVariable("Port") ?? "10000";
 
