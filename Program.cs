@@ -530,6 +530,14 @@ app.MapGet("/", () =>
     });
 });
 
+app.MapGet("/prueba/{id:int}", (int id) =>
+{
+    return Results.Ok(new
+    {
+        mensaje = "La ruta con parámetro funciona",
+        id = id
+    });
+});
 // ============================================================
 // GET - OBTENER TODAS LAS PRENDAS
 // GET /api/ropa
