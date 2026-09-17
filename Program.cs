@@ -520,9 +520,7 @@ app.UseCors();
 // INICIO
 // ============================================================
 
-app.MapGet("/", () =>
-app.MapGet("/prueba/{id:int}", (int id) =>
-{
+app.MapGet("/", () =>{
     return Results.Ok(new
     {
         mensaje = "La ruta con parámetro funciona",
