@@ -521,21 +521,20 @@ app.UseCors();
 // ============================================================
 
 app.MapGet("/", () =>
-{
-    return Results.Ok(new
-    {
-        mensaje = "API Tienda de Ropa funcionando",
-        version = "1.0",
-        endpoint = "/api/ropa"
-    });
-});
-
 app.MapGet("/prueba/{id:int}", (int id) =>
 {
     return Results.Ok(new
     {
         mensaje = "La ruta con parámetro funciona",
         id = id
+    });
+});
+{
+    return Results.Ok(new
+    {
+        mensaje = "API Tienda de Ropa funcionando",
+        version = "1.0",
+        endpoint = "/api/ropa"
     });
 });
 // ============================================================
