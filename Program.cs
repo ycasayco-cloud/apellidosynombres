@@ -520,13 +520,7 @@ app.UseCors();
 // INICIO
 // ============================================================
 
-app.MapGet("/", () =>{
-    return Results.Ok(new
-    {
-        mensaje = "La ruta con parámetro funciona",
-        id = id
-    });
-});
+app.MapGet("/", () =>
 {
     return Results.Ok(new
     {
@@ -535,6 +529,7 @@ app.MapGet("/", () =>{
         endpoint = "/api/ropa"
     });
 });
+
 // ============================================================
 // GET - OBTENER TODAS LAS PRENDAS
 // GET /api/ropa
